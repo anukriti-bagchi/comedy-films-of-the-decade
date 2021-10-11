@@ -1,0 +1,52 @@
+:root {
+  --primaryColor: black;
+  --secondaryColor: white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--secondaryColor);
+}
+
+body {
+  margin: 2rem;
+  background-color: black;
+}
+
+hr {
+  border: 1px solid var(--secondaryColor);
+}
+
+button,
+.btn {
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  /* border: 1px solid var(--secondaryColor); */
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--primaryColor);
+}
+
+ul {
+  padding-inline-start: 0;
+}
+.list-items {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 94%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  box-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.2);
+}
